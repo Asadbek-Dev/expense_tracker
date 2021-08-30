@@ -23,7 +23,7 @@ export const AddTransaction = () => {
             <form onSubmit={onSubmit}>
                 <div className="form-control">
                     <label htmlFor="text">Nomi</label>
-                    <input type="text" value={text} onChange={(e)=>setText(e.target.value)} placeholder='Enter text...' />
+                    <input type="text" value={text} onChange={(e)=>setText(e.target.value)} placeholder='Nomini kiriting...' />
                 </div>
                 <div className="form-control">
                     <label htmlFor="amount">Qiymat <br />
