@@ -8,8 +8,8 @@ export const Balance = () => {
     const total = amounts.reduce((acc,item)=>(acc+=item),0).toFixed(2);
     return (
         <div>
-            <h4>Your Balance</h4>
-            <h1>${total}</h1>
+            <h4>Sizning hisob</h4>
+            <h1>{total}{' '}so'm</h1>
         </div>
     )
 }

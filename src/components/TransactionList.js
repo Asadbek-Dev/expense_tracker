@@ -8,7 +8,7 @@ export const TransactionList = () => {
 
     return (
         <div>
-            <h3>History</h3>
+            <h3>List</h3>
             <ul className="list">
                 {transactions.map(transaction=>( 
                     <li key={transaction.id} className={transaction.amount < 0 ? 'minus':'plus'}>
